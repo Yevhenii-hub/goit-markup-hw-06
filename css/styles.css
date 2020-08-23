@@ -762,12 +762,41 @@ letter-spacing: 0.02em;
 }
 
 .footer-text {
+  
     display: block;
     text-transform: uppercase;
   color: #ffffff;
-  margin: 0;
+  margin-bottom: 20px;
+  
+  
+
+
 }
-.footer-disc{
+.email-footer{
+  padding: 16px;
+  margin-right: 12px;
+  width: 358px;
+height: 50px;
+
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: #2F303A;
+color:var(--white-collor);
+  
+
+}
+.button-footer{
+  font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+}
+.send-icon{
+  position: absolute;
+  top: 122px;
+  right: -112px;
+
   
 }
 
@@ -787,6 +816,7 @@ letter-spacing: 0.02em;
 
 /* FOOTER ПОЗИЦИОНИРОВАНИЕ */
 .footer-content {
+  position: relative;
   display: flex;
   height: 252px;
   align-items: baseline;
@@ -808,6 +838,8 @@ letter-spacing: 0.02em;
   position: absolute;
 width: 200px;
 height: 50px;
+text-align: left;
+padding-left: 29px;
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
