@@ -977,6 +977,7 @@ line-height: 30px;
   color: #757575;
 }
 .continer .people {
+  background-color:var(--white-collor);
   width: calc((100% - 90px) / 3);
   margin-right: 30px;
 }
