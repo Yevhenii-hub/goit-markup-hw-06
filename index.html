@@ -448,33 +448,47 @@
               <h2 class="text-modal">Оставьте свои данные, мы вам перезвоним</h2>
 
               <form class="form">
+
                 <label class="">
                   <span class="text-span">Имя</span>
                   <input class="contact-us" type="text" name="user-name" placeholder=" " pattern="^[А-Яа-яЁё\s]+$" required="">
                   <svg class="icons-modal-man" height="18" width="18">
                     <use href="./images/sprite.svg#icon-man">
                     </use>
+                </label>
+
+                <label>
 
                     <span class="text-span">Телефон</span>
                     <input class="contact-us" type="tel" name="user-name" placeholder=" " pattern="^[А-Яа-яЁё\s]+$" required="">
                     <svg class="icons-modal-call " height="18" width="18">
                       <use href="./images/sprite.svg#icon-call">
                       </use>
+                </label>
+                <label>
 
                       <span class="text-span">Почта</span>
                       <input class="contact-us" type="email" name="user-name" placeholder=" " pattern="^[А-Яа-яЁё\s]+$" required="">
                       <svg class="icons-modal-sms " height="18" width="18">
                       <use href="./images/sprite.svg#icon-sms">
                       </use>
+                </label>
 
-                      <label for="">
+                <label>
                         <span class="coments">Комментарий</span>
                         <textarea  class="textarea" name="textarea" id=""  placeholder="Введите текст"></textarea>
-                      </label>
-
+                </label>
+                <label  class="check">
+                
+                      <input type="checkbox" class="checkbox" checked >
+                      <span class="check_box" ></span>
                       <span class="contact">Соглашаюсь с рассылкой и принимаю <a href="#" class="contact-text"> Условия договора</a></span>
-                      <input type="checkbox" class="checkbox">
-                      <button class="modal-button">Отправить</button>
+                      <span class="checkbox" type="checkbox"></span>
+
+                </label>
+                      
+
+                <button class="modal-button">Отправить</button>
                       
 
                                                             
